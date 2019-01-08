@@ -11,7 +11,7 @@ User.create(name: 'sue', email: 'sue@bob.com', password: 'pointer')
 User.create(name: 'alice', email: 'alice@bob.com', password: 'pointer')
 
 Teacher.create(name: 'Yoda', user_id: 1 )
-Teacher.create(name: 'Bill Gates', user_id: 1 )
+Teacher.create(name: 'Melinda Gates', user_id: 1 )
 Teacher.create(name: 'Steve Jobs', user_id: 1 )
 Teacher.create(name: 'MLK', user_id: 1 )
 
