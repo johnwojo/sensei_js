@@ -1,6 +1,6 @@
 # sensei
 An educational assistant built in Rails. Never forget what you've learned.
-
+JavaScript Version
 
 ## Features
 * There is no formation without repetition. This app repeats back to you things you've learned.
