@@ -1,10 +1,11 @@
+
+
 $(function () {
 	console.log("index.js loaded ...");
 })
 
 
 const asdf = 'Salad'
-
 function getTeachers() {
 	$.ajax({
 		url: 'http://127.0.0.1:3000/teachers',
@@ -24,6 +25,9 @@ function getTeachers() {
 		// debugger;
 	})
 }
+
+
+
 // 0: {id: 1, name: "Yoda", user_id: 1, user: {…}, teachings: Array(0)}
 class Teacher {
 	constructor(obj) {
@@ -46,6 +50,8 @@ Teacher.prototype.newTeachingForm = function () {
 		<form>new teacher form</form>
 	`)
 }
+
+
 
 function showNewTeachingForm() {
 	$.ajax({
